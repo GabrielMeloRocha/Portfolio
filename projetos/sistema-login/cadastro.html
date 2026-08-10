@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Primeiro Site</title>
 
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <h1>Meu Primeiro Cadastro</h1>
+
+    <form onsubmit="alert('Cadastro Realizado!'); return false;">
+
+        <label>Nome:</label>
+        <input type="text" required>
+
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" required>
+
+        <br><br>
+
+        <label>Senha:</label>
+        <input type="Password" minlength="6"required>
+
+        <br><br>
+
+        <button type="submit">Cadastrar</button>
+
+    </form>
+
+</body>
+</html>

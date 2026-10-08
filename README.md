@@ -223,6 +223,14 @@
 <p> Atividades desenvolvidas durante as aulas de Lógica e Programação, envolvendo fundamentos de programação e resolução de problemas. </p>
 
 <a href="ATIVIDADES 2/UMC - LÓGICA E´PROGRAMAÇÃO/10 09 2026 gbs/index.html" target="_blank" rel="noopener noreferrer"> Ver atividade HTML / CSS</a>
+  
+</article>
+
+<article>
+  
+  <h3>Lógica e Programação - JavaScript</h3>
+  
+  <p> Atividade desenvolvida durante as aulas de Lógica e Programação, envolvendo fundamentos de programação interativa. </p>
 
   <a href="ATIVIDADES 2/UMC - LÓGICA E´PROGRAMAÇÃO/aula2509/ATIVIDADE 2509 - Gabriel melo/index.html" target="_blank" rel="noopener noreferrer"> Ver atividade JavaScript </a>
 

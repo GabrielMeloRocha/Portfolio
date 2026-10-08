@@ -100,14 +100,6 @@
 
 <article>
 
-<h3>Programação</h3>
-
-<ul> <li>Python</li> <li>Java</li> </ul>
-
-</article>
-
-<article>
-
 <h3>Banco de Dados</h3>
 
 <ul> <li>MySQL</li> <li>Modelagem de dados</li> <li>SQL</li> </ul>
@@ -196,7 +188,7 @@
 
 <h3>Estudos complementares</h3>
 
-<ul> <li>HTML e CSS</li> <li>Python</li> <li>Java</li> <li>MySQL</li> <li>JavaScript</li> <li>Desenvolvimento Web</li> </ul>
+<ul> <li>HTML e CSS</li> <li>MySQL</li> <li>JavaScript</li> <li>Desenvolvimento Web</li> </ul>
 
 </article>
 
@@ -218,7 +210,7 @@
 
 <p> Exercícios e atividades relacionados a bancos de dados relacionais, modelagem de dados, SQL, tabelas, relacionamentos e comandos de banco de dados. </p>
 
-<a href="ATIVIDADES/UMC - BANCO DE DADOS/" target="_blank" rel="noopener noreferrer"> Ver atividades </a>
+<a href="ATIVIDADES/UMC - BANCO DE DADOS/ATIVIDADE0610_GabrielMelo.sql" target="_blank" rel="noopener noreferrer"> Ver atividade SQL </a>
 
 </article>
 
@@ -230,7 +222,9 @@
 
 <p> Atividades desenvolvidas durante as aulas de Lógica e Programação, envolvendo fundamentos de programação e resolução de problemas. </p>
 
-<a href="ATIVIDADES 2/UMC - LÓGICA E´PROGRAMAÇÃO/" target="_blank" rel="noopener noreferrer"> Ver atividades </a>
+<a href="ATIVIDADES 2/UMC - LÓGICA E´PROGRAMAÇÃO/10 09 2026 gbs/index.html" target="_blank" rel="noopener noreferrer"> Ver atividade HTML / CSS</a>
+
+  <a href="ATIVIDADES 2/UMC - LÓGICA E´PROGRAMAÇÃO/aula2509/ATIVIDADE 2509 - Gabriel melo/index.html" target="_blank" rel="noopener noreferrer"> Ver atividade JavaScript </a>
 
 </article>
 

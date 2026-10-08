@@ -170,7 +170,7 @@
 
 <p> <strong>Tecnologias:</strong> HTML e CSS. </p>
 
-<a href=projetos/portal-eleitoral/Inicio.html" target="_blank" rel="noopener noreferrer"> Ver projeto </a>
+<a href="projetos/portal-eleitoral/Inicio.html" target="_blank" rel="noopener noreferrer"> Ver projeto </a>
 
 </article>
 
@@ -218,7 +218,7 @@
 
 <p> Exercícios e atividades relacionados a bancos de dados relacionais, modelagem de dados, SQL, tabelas, relacionamentos e comandos de banco de dados. </p>
 
-<a href="ATIVIDADES/UMC - BANCO DE DADOS" target="_blank" rel="noopener noreferrer"> Ver atividades </a>
+<a href="ATIVIDADES/UMC - BANCO DE DADOS/" target="_blank" rel="noopener noreferrer"> Ver atividades </a>
 
 </article>
 
@@ -230,7 +230,7 @@
 
 <p> Atividades desenvolvidas durante as aulas de Lógica e Programação, envolvendo fundamentos de programação e resolução de problemas. </p>
 
-<a href="ATIVIDADES 2/UMC - LÓGICA E´PROGRAMAÇÃO" target="_blank" rel="noopener noreferrer"> Ver atividades </a>
+<a href="ATIVIDADES 2/UMC - LÓGICA E´PROGRAMAÇÃO/" target="_blank" rel="noopener noreferrer"> Ver atividades </a>
 
 </article>
 

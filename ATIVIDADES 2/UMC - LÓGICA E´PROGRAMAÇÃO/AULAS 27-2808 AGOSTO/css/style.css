@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+p{
+    color: white;
+    font-family: arial;
+    font-size: 16px;
+    text-align: center;
+    font-size: 14px;
+}
+
+nav {
+    background-color: rgb(255, 253, 253);
+    padding: 10px 0;
+}
+
+nav .menu {
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: arial, sans-serif;
+    padding: 8px 12px;
+    transition:background-color 0.6s;
+    border-radius: 6px;
+}
+
+.menu a:hover {
+    background-color: dark rgb(255, 0, 0);
+}
+
+h1{
+    color: white;
+    font-family: arial;
+    font-size: 10;
+    text-align: center;
+    font-size: 24px;
+}
+
+h2{
+    color: white;
+    font-family: arial;
+    font-size: 20;
+    text-align: center;
+    font-size: 20px;
+
+}
+
+h3{
+     color: white;
+    font-family: arial;
+    font-size: 18;
+    text-align: center;
+    font-size: 18px;
+    
+}
+header{
+    background-color: #000000;
+    text-align: center;
+    text-align: center;
+}
+
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: arial;
+    text-align: center;
+}
+
+figure{
+    text-align: center;
+}
+
+.imagem-conteudo{
+    border-radius: 20px; /* Arredonda os cantos */
+    display: block;/* imagem se comporta como um bloco (ocupa toda a linha) */
+    margin: 20px auto; /* Cria 20px de espaço em cima e embaixo e centraliza */
+    max-width: 60%;/* imagem ocupa no máximo 60% da largura do container */
+    height: auto;/* Mantém a proporção da imagem, sem distorcer */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* sombra na imagem */
+    transition: transform 0.2s ease, box-shadow 0.3s ease; /* animação suave */
+    font-size: 100%;
+         
+}
+
+
+#imagem-topo{
+    text-align: center;
+}
+
+header img {
+    max-width: 200px; 
+}
+
+
+
+/* Definição do tamanho do container, imagem, espaçamento, */
+
+.container {
+    max-width: 900px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: dark rgb(255, 0, 0);
+    text-align: justify;
+    border-radius: 10px; /* cantos arredondados */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /*sombra */
+}
+
+
+h1, h2, h3 {
+    color: darkblue; /* cor nos títulos */
+}
+
+
+/* Efeito quando o mouse passa sobre a imagem */
+.imagem-conteudo:hover {
+    transform: scale(1.05); /* aumenta a imagem em 5% */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3); /* sombra mais intensa */
+    opacity: 0.5;
+}
+
+
+body {
+  
+background-image: url(../img/imagens.jpg);
+
+}
+
+.iframe {
+        display: flex;
+    justify-content: center;
+}

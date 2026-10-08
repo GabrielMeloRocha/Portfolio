@@ -1,0 +1,135 @@
+header {
+    background: #12355b;
+    width: 100%;
+    margin: auto;
+    align-items: center;
+}
+
+header h1 {
+    color: white;
+}
+
+header p {
+    color: white;
+}
+
+header a {
+    color: black;
+}
+
+header a:hover {
+    color: #60A5FA;
+}
+
+body {
+    background-color: black;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+html {
+    font-size: arial;
+}
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 2.1rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+h4 {
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+p {
+    font-size: 1.6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+nav {
+    background-color: #12355b;
+    justify-content: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #60A5FA;
+}
+
+.conteudo {
+    font-size: 1.6rem;
+    background-color: gainsboro;
+    padding: 1rem;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+figure {
+    text-align: center;
+}
+
+.cand {
+    border-radius: 20px;
+}
+
+.conteudo {
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.barra {
+    width: 100%;
+    height: 25px;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progresso {
+    height: 100%;
+    background-color: #2563eb;
+}

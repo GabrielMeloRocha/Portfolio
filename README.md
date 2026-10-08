@@ -6,7 +6,7 @@
 
 <meta name="description" content="Portfólio de Gabs, estudante de Análise e Desenvolvimento de Sistemas e desenvolvedor web em formação.">
 
-<meta name="author" content="Gabs">
+<meta name="author" content="Gabriel Melo Rocha">
 
 <link rel="stylesheet" href="style.css">
 
@@ -20,7 +20,7 @@
 
 <nav>
 
-<a href="#inicio"> <strong>GABS</strong> </a>
+<a href="#inicio"> <strong>Gabriel Melo Rocha</strong> </a>
 
 <ul>
 
@@ -56,7 +56,7 @@
 
 <p>Olá, eu sou</p>
 
-<h1>Gabs</h1>
+<h1>Gabriel Melo Rocha</h1>
 
 <h2>Desenvolvedor Web em formação</h2>
 
@@ -140,9 +140,9 @@
 
 <p> Sistema desenvolvido para praticar a criação de páginas de login e cadastro, organização de interfaces e estruturação de sistemas web. </p>
 
-<p> <strong>Tecnologias:</strong> HTML, CSS, Python, Django e MySQL. </p>
+<p> <strong>Tecnologias:</strong> HTML e CSS.</p>
 
-<a href="#" target="_blank" rel="noopener noreferrer"> Ver projeto </a>
+<a href="projetos/sistema-login/cadastro.html" target="_blank" rel="noopener noreferrer"> Ver projeto </a>
 
 </article>
 
@@ -156,7 +156,7 @@
 
 <p> <strong>Tecnologias:</strong> HTML e CSS. </p>
 
-<a href="#" target="_blank" rel="noopener noreferrer"> Ver projeto </a>
+<a href="projetos/enciclopedia-indenavarette/index.html" target="_blank" rel="noopener noreferrer"> Ver projeto </a>
 
 </article>
 
@@ -170,7 +170,7 @@
 
 <p> <strong>Tecnologias:</strong> HTML e CSS. </p>
 
-<a href="#" target="_blank" rel="noopener noreferrer"> Ver projeto </a>
+<a href=""projetos/portal-eleitoral/inicio.html" target="_blank" rel="noopener noreferrer"> Ver projeto </a>
 
 </article>
 
@@ -282,12 +282,10 @@
 
 <footer>
 
-<p> &copy; 2026 Gabs. Todos os direitos reservados. </p>
+<p> &copy; 2026 Gabriel Melo Rocha. Todos os direitos reservados. </p>
 
 <p> Desenvolvido com HTML. </p>
 
 </footer>
 
 </body>
-
-</html>

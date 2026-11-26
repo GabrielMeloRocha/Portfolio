@@ -1,0 +1,37 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GBS Cooperações - Bem-Vindo</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Bem-Vindo a GBS Coorpeações!</h1>
+
+        <br>
+
+        <h2>Agora você pode acessar o nosso site à vontade!</h2>
+
+        <br>
+
+        <a href="{% url 'login' %}" class="login">Entre</a>
+
+        <br>
+
+        <form action="{% url 'logout' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" class="login">Sair da conta</button>
+        </form>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Senha</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form method="post">
+            {% csrf_token %}
+
+            <h1>Alterar Senha</h1>
+
+            <br>
+
+            {% if validlink %}
+
+                <div class="input-box">
+                    <input
+                        type="password"
+                        name="new_password1"
+                        placeholder="Nova senha"
+                        required
+                        autocomplete="new-password"
+                    >
+                    <i class="bx bx-lock"></i>
+                </div>
+
+                <div class="input-box">
+                    <input
+                        type="password"
+                        name="new_password2"
+                        placeholder="Confirme a senha"
+                        required
+                        autocomplete="new-password"
+                    >
+                    <i class="bx bx-lock-open"></i>
+                </div>
+
+                {% if form.errors %}
+                    <p>Verifique as senhas informadas e tente novamente.</p>
+                {% endif %}
+
+                <br>
+
+                <button type="submit" class="login">
+                    Confirmar
+                </button>
+
+            {% else %}
+
+                <p>Este link é inválido ou expirou.</p>
+
+            {% endif %}
+        </form>
+    </div>
+</body>
+</html>

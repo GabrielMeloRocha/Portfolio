@@ -1,0 +1,46 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar Senha</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <form method="post">
+            {% csrf_token %}
+
+            <h1>Recuperar Senha</h1>
+
+            {{ form.non_field_errors }}
+
+            <br>
+
+            <div class="input-box">
+                <input
+                    type="email"
+                    name="email"
+                    placeholder="E-mail cadastrado"
+                    required
+                    autocomplete="email"
+                >
+                <i class="bx bx-envelope"></i>
+            </div>
+
+            {{ form.email.errors }}
+            {{ form.non_field_errors }}
+
+            <br>
+
+            <button type="submit" class="login">
+                Continuar
+            </button>
+        </form>
+    </div>
+</body>
+</html>

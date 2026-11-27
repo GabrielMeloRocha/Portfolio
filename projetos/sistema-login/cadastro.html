@@ -1,64 +1,37 @@
-{% load static %}
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro</title>
+    <title>Cadastro — demonstração</title>
     <link rel="stylesheet" href="static/css/style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
 <body>
-     <div class="container">
-        <form method="post" action="{% url 'cadastrofeito' %}">
-            {% csrf_token %}
-
+    <div class="container">
+        <div class="cadastro-demo">
             <h1>Cadastro</h1>
-
             <br>
-
             <div class="input-box">
-                <input id="nomeComp" name="nome_completo" placeholder="Nome Completo" type="text" required autocomplete="name">
+                <input id="nomeComp" placeholder="Nome Completo" type="text" autocomplete="name" disabled>
                 <i class="bx bxs-user"></i>
             </div>
-
             <div class="input-box">
-                <input id="user" name="email" placeholder="Login" type="email" required autocomplete="email">
+                <input id="user" placeholder="Login" type="email" autocomplete="email" disabled>
                 <i class="bx bx-user"></i>
             </div>
-
             <div class="input-box">
-                <input id="novaSenha" name="senha" placeholder="Senha" type="password" required autocomplete="new-password">
+                <input id="novaSenha" placeholder="Senha" type="password" autocomplete="new-password" disabled>
                 <i class="bx bx-lock"></i>
             </div>
-
             <div class="input-box">
-                <input id="confSenha" name="confirmar_senha" placeholder="Confirme a Senha" type="password" required autocomplete="new-password">
+                <input id="confSenha" placeholder="Confirme a Senha" type="password" autocomplete="new-password" disabled>
                 <i class="bx bx-check"></i>
             </div>
-
-            <div class="remember-forgot">
-                <label>
-                    <input type="checkbox" id="terms" name="termos" value="aceito" required>
-                    Ao fazer o login, você aceita os termos e condições da empresa?
-                </label>
-            </div>
-
+            <p id="mensg">Demonstração visual. O cadastro real precisa do sistema Django hospedado.</p>
             <br>
-
-            <p id="mensg"></p>
-            
-            {% if erro %}
-             <p>{{ erro }}</p>
-            {% endif %}
-
-            <br>
-
-            <button type="submit" class="login">Cadastrar</button>
-        </form>
+            <button type="button" class="login" disabled>Cadastro indisponível nesta demonstração</button>
+        </div>
     </div>
-
-    <script src="{% static 'js/cadastro.js' %}" defer></script>
 </body>
 </html>
